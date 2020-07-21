@@ -1,6 +1,8 @@
 # Project One of Operating System Projects
 This project is composed of 4 subproblems. Each question requires one source file in this repo. 
 
+For more information, please read "CS356-Project1.pdf" and "CS356prj1.pdf".
+
 ## Problem One: Adding a System Call to discover the structure of Android Process Tree
 The source file is sys_ptree.c and is compiled with the help of Makefile and make. 
 
