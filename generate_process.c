@@ -14,7 +14,7 @@ int main(){
             else printf("Child %d terminated abnormally with exist status=%d\n",child_pid,WEXITSTATUS(status));
         }
     }else{
-		printf("Student ID:518021910976,Child PID is:%d\n",child_pid);
+		printf("Student ID:XXXXXXXX,Child PID is:%d\n",child_pid);
         execl("/data/misc/test_ptree","test_ptree",NULL);
         exit(0);
     }
