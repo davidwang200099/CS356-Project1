@@ -8,7 +8,7 @@ int main(){
 	pid_t child_pid;
 	int status;
     if((child_pid=fork())==0){
-        printf("Student ID:518021910976,Parent PID is:%d\n",parent_pid);
+        printf("Student ID:XXXXXXXX,Parent PID is:%d\n",parent_pid);
         while((child_pid=waitpid(-1,&status,0))>0){
 			if(WIFEXITED(status)) printf("Child %d terminated normally with exist status=%d\n",child_pid,WEXITSTATUS(status));
             else printf("Child %d terminated abnormally with exist status=%d\n",child_pid,WEXITSTATUS(status));
